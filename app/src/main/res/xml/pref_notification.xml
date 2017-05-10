@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_alert_threshold"
+        android:inputType="number"
+        android:key="@string/pref_alert_threshold"
+        android:title="@string/pref_title_alert_threshold"/>
+
+    <!-- Allows the user to choose a ringtone in the 'alarm' category. -->
+    <RingtonePreference
+        android:defaultValue="content://settings/system/alarm_alert"
+        android:key="@string/pref_alert_alarm"
+        android:ringtoneType="alarm"
+        android:title="@string/pref_title_alert_alarm"/>
+
+</PreferenceScreen>

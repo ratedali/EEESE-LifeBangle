@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="device_list_item_padding">24dp</dimen>
+    <dimen name="close_alert_size">256dp</dimen>
+    <dimen name="alert_screen_margin">48dp</dimen>
+    <dimen name="alert_title_margin">16dp</dimen>
+    <dimen name="alert_heart_rate_margin">8dp</dimen>
+    <dimen name="device_list_item_margin">16dp</dimen>
+    <dimen name="connected_mark_size">32dp</dimen>
+</resources>

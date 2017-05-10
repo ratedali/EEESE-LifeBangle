@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="@dimen/device_list_item_margin"
+                                    app:cardCornerRadius="@dimen/cardview_default_radius"
+                                    app:cardElevation="@dimen/cardview_default_elevation"
+                                    app:contentPadding="@dimen/device_list_item_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/device_name"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:text="Device Name"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/connected_mark_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/device_name"
+            android:layout_toRightOf="@id/device_name"
+            android:tint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_device_connected"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
